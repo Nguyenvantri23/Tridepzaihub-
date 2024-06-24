@@ -3133,7 +3133,6 @@ spawn(function()
         end
     end
 end)
-warn("Bắt đầu Farm")
 
 local ToggleRandomBone = Tabs.Main:AddToggle("ToggleRandomBone", {Title = "Random Bone",Description = "Đổi xương", Default = false })
 ToggleRandomBone:OnChanged(function(Value)  
@@ -7450,5 +7449,3 @@ Fluent:Notify({
     Durtion = 3
 })
 warn("Tri Dep Zai Hub Loading Completed !!")
-DiscordLib:Notification("Thông Báo" , "Cảm ơn bạn đã sử dụng Script Hack Tri Dep Zai Hub " , 13 ,16576205534)
-end
